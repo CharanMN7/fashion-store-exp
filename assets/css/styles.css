@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Karla;
+}
+
+
+/*    HEADER STUFF   */
+
+header {
+    background: #8d8daa;
+    text-align: center;
+    padding: 30px;
+    color: #F7F5F2;
+    font-family: Montserrat;
+}
+
+header h1 {
+    font-size: 48px;
+    margin-bottom: 0;
+    font-family: 'Merriweather Sans';
+}
+
+.btn {
+    font-size: 18px;
+    border-radius: 3px;
+    background: hsl(344, 100%, 81%);
+    padding: 10px;
+    text-decoration: none;
+    color: #F7F5F2;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #f3809f;
+}
+
+
+/*    SECTIONS    */
+
+/*  Products  */
+.products {
+    background: #DFDFDE;
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 400;
+    color: #6b6b65;
+}
+
+.products h3 {
+    font-family: 'Noto Sans';
+    color: #4f3434;
+}
+
+.box {
+    display: block;
+}
+
+.p {
+    display: inline-block;
+}
+
+div img{
+    padding: 10px;
+    max-width: 250px;
+}
+
+hr {
+    border: none;
+    height: 3px;
+    background: white;
+    
+}
+
+/*  Categories  */
+
+.categories {
+    background: white;
+}
+
+.categories h4 {
+
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.categories div {
+    display: block;
+    margin: 10px;
+}
+
+.categories a{
+    text-decoration: none;
+    color: rgb(46, 53, 137);
+    margin: 6px;
+}
+
+.categories a:hover{
+    color: #b54865;
+}
+
+
+/*   FOOTER STUFF   */
+
+footer {
+    background: #F56D91;
+    font-size: 12px;
+    padding: 20px;
+    color: #fcb8ca;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer li {
+    display: inline-block;
+    margin: auto 10px;
+}
+footer a{
+    text-decoration: none;
+    color: #fcb8ca;
+}
+
+footer a:hover {
+    color: #ba3659;
+}
