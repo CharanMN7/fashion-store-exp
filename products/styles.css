@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+}
+header {
+    background: #8d8daa;
+    text-align: left;
+    padding: 5px;
+    color: #F7F5F2;
+    font-family: Montserrat;
+}
+header h1{
+    margin: 0;
+    padding: 3px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-style: italic;
+}
+
+header h1 a{
+    text-decoration: none;
+    color: white;
+}
+
+section{
+    text-align: center;
+}
+
+section h2{
+    text-align: left;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.box {
+    display: block;
+}
+
+.p {
+    display: inline-block;
+}
+
+.p p{
+    padding: 10px;
+}
+
+
+#p1{
+    color: gray;
+    text-decoration: line-through;
+}
+
+#p2{
+    color: #ff2222;
+    font-weight: 700;
+}
+
+#pp{
+    font-weight: 700;
+}
+
+.line{
+    text-align: left;
+    margin: 0;
+}
+
+.line a{
+    padding: 0px;
+    margin: 0;
+    border: solid black 1px;
+    
+}
+
+.line a{
+    text-decoration: none;
+}
+
+.line a span:hover{
+    color: #ba3659;
+}
+
+.line a span{
+    padding: 10px;
+    color: black;
+    
+}
+
+.bag_like{
+    text-align: left;
+}
+
+.bag_like a{
+    text-align: left;
+    text-decoration: none;
+    color: white;
+}
+
+.bag{
+    border: solid;
+    padding: 10px;
+    background: black;
+}
+
+.bag:hover{
+    background: white;
+    color: black;
+}
+
+.like{
+    display: inline;
+}
+
+.like img{
+    display: inline;
+    padding: 0;
+    border: solid;
+
+}
+
+div img{
+    padding: 10px;
+    max-width: 250px;
+}
+
+footer {
+    text-align: center;
+    background: #F56D91;
+    font-size: 12px;
+    padding: 20px;
+    color: #fcb8ca;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer li {
+    display: inline-block;
+    margin: auto 10px;
+}
+footer a{
+    text-decoration: none;
+    color: #fcb8ca;
+}
+
+footer a:hover {
+    color: #ba3659;
+}
