@@ -111,9 +111,10 @@ section h2{
 
 .like img{
     display: inline;
-    padding: 0;
-    border: solid;
-
+    padding: 0.3em;
+    border: 1px solid black;
+    vertical-align: middle;
+    margin-bottom: 0.2em;
 }
 
 div img{
